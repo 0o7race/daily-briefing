@@ -1,0 +1,26 @@
+{
+  "local_root": "F:\\daily-briefing",
+  "repository": "0o7race/daily-briefing",
+  "timezone": "Asia/Shanghai",
+  "public_index": false,
+  "publishing": {
+    "markdown": "commit_to_private_repo",
+    "audio": "private_github_release_preferred",
+    "fallback_audio": "commit_mp3_if_under_github_file_limit"
+  },
+  "paths": {
+    "briefs": "F:\\daily-briefing\\briefs",
+    "audio": "F:\\daily-briefing\\audio",
+    "models": "F:\\daily-briefing\\models",
+    "logs": "F:\\daily-briefing\\logs",
+    "cosyvoice_repo": "F:\\daily-briefing\\vendor\\CosyVoice"
+  },
+  "tts": {
+    "primary": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "local_model_dir": "F:\\daily-briefing\\models\\Fun-CosyVoice3-0.5B",
+    "prompt_audio": "F:\\daily-briefing\\vendor\\CosyVoice\\asset\\zero_shot_prompt.wav",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做的比我还好呦。",
+    "mp3_bitrate_kbps": 80
+  }
+}
+

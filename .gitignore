@@ -1,0 +1,26 @@
+# Local secrets and environment files
+.env
+*.local
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local model/runtime assets. These are large and should not be committed.
+models/
+vendor/
+
+# Logs and temporary files
+logs/
+*.tmp
+*.bak
+
+# Intermediate audio. Final MP3 files under audio/ may be committed or uploaded
+# to private GitHub releases, depending on the publishing mode.
+*.wav
+*.flac
+
